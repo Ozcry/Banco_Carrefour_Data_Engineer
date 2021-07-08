@@ -1,0 +1,54 @@
+Conhecendo o terminal e primeiros comandos
+
+
+# Comandos terminal linux
+  pwd --> mostra o local onde estamos
+
+  ls --> lista o que tem na pasta que estou
+    ls -a --> mostra os diretórios ocultos também
+    ls (diretório) --> lista o que tem no diretório
+    ls -l --> lista, diretórios e arquivos com detalhes
+
+  cd (diretório)--> muda de diretório
+    cd .. --> retorna um diretório
+    cd / --> leva ao diretório raiz '/'
+    cd ~ --> leva a pasta pessoal
+
+  mkdir (nome) --> cria uma pasta
+
+  man (comando) --> mostra o manual do comando especifico
+
+  (comando) --help --> mostra como funciona um comando especifico
+
+  history --> mostra o histórico de todos os comandos utilizados no terminal
+
+  mv (pasta ou arquivo para renomear) (Novo nome) --> renomear arquivos e diretórios
+    mv (pasta ou arquivo que deseja mover) (novo local) --> movendo um arquivo ou pasta
+
+  touch (arquivo) --> cria arquivos vazios
+
+  cp (arquivo) (local para colocar) --> copia um arquivo
+
+  clear --> limpa o terminal
+
+  rmdir (nome) --> remover diretórios vazios
+
+  rm -r (nome) --> remove diretórios cheio (-r é uma flag)
+    rm (nome) --> remove arquivos
+
+  exit --> fecha o terminal
+
+
+# Atalhos teclado terminal
+  CTRL + ALT + T --> abrir terminal
+  Seta pra cima --> volta nos últimos comandos digitados no terminal
+  CTRL + C --> Cancela o comando atual em funcionamento
+  CTRL + Z --> Pausa o comando atual, em primeiro plano ou segundo
+  CTRL + D --> Faz o logout da sessão atual
+  CTRL + W --> Apaga a última palavra na linha atual
+  CTRL + U --> Apaga a linha inteira
+  CTRL + R --> Busca um comando recente
+  !! --> executa novamente o último comando digitado
+  TAB --> autocompleta
+  CTRL + L --> limpa o terminal
+

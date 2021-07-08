@@ -1,0 +1,30 @@
+Iniciando o git e criando um commit
+
+# Iniciar o git
+  git init
+
+# Iniciar o versionamento
+  git add
+    git add *
+
+# Criar um commit
+  git commit
+    git commit -m "commit inicial"
+      (-m --> flag)
+
+# Mostrar diretórios ocultos terminal Linux
+  ls -a --> (-a, flag para mostrar diretórios ocultos)
+
+# Configuração inicial git
+  Utilizar caso seja a primeira vez utilizando o git
+    git config --global user.email "jean.lucasferreira1998@gmail.com"
+    git config --global user.name "Jean Lucas"
+
+---------------------------------------------------------------------------
+Linguagem Markdown
+
+# Tags
+  # até ###### --> títulos
+  **teste** --> negrito
+  _teste_ --> itálico
+  :nome_do_emoji --> adicionar emoji

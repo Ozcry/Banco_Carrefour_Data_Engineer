@@ -1,0 +1,14 @@
+Trabalhando com o GitHub
+
+# Git config
+  git config --list --> mostra as configurações do git em formato de lista
+  git config --global --unset user.name --> reseta as config escolhidas
+  git config --global user.name "Ozcry" --> escolhe o nome do usuário
+
+# Git remote
+  git remote -v --> lista os repositórios remotos que tenho cadastrados
+  git remote add origin https://github.com/Ozcry/livro-receitas.git --> adiciona o endereço do servidor remoto
+     ('origin' é usado por convenção como apelido, para não ficar escrevendo o link toda hr)
+
+# Git push
+  git push origin master --> manda o condigo do repositório local para o remoto

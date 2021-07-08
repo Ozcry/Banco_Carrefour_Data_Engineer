@@ -1,0 +1,16 @@
+Entendendo como funciona o git
+
+# SHA1
+  algoritmo de criptografia (o output gera caracteres de 40 dígitos unicos)
+    openssl sha1 teste.txt --> utilizando SHA1 pelo Git Bash
+
+# Objetos fundamentais
+  * blobs --> contem metadados do git
+  * trees --> armazena e aponta para blobs diferentes, aponta tb para outras trees
+  * commits --> um pacote de alterações feitas no repositório, aponta para trees
+
+# Sistema distribuído
+  sistema que possui múltiplas cópias de si mesmo em diferentes locais
+
+# Segurança
+  seus objetos estão ligados de maneira encadeada e de difícil alteração

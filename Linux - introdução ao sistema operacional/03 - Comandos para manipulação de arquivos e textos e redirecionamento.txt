@@ -1,0 +1,63 @@
+Lidando com arquivos .txt
+
+
+# comandos de redirecionamento
+  (o que) > (para onde) --> redireciona a saída de um comando para outro comando ou arquivo
+  (o que) >> (para onde) --> redireciona a saída e adiciona a mesma para um comando ou arquivo
+  (o que) < (para onde) --> direciona a entrada de um arquivo para a saída de um comando
+  
+  (comando) | (comando) --> envia a saída de um comando para entrada de outro comando permitindo a execução de dois comandos
+  
+  (comando) & (comando) --> este operador permite usar dois comandos e separar suas saídas no terminal
+  (comando) && (comando) --> usado para que dois comandos só sejam executados se o primeiro for executado com sucesso
+
+
+# Comandos
+  nano (arquivo) --> edita um arquivo txt pelo nano(terminal)
+
+  cat (arquivo) --> visualizar um arquivo txt
+  tac (arquivo) --> visualizar um arquivo txt ao contrário
+
+  head (arquivo) --> mostra as primeiras 10 linhas
+    head (arquivo) > (novo) --> pega as primeiras 10 linhas e cria um novo arquivo
+  tail (arquivo) --> mostra as últimas 10 linhas
+    tail (arquivo) > (novo) --> pega as ultimas 10 linhas e cria um novo arquivo
+
+  cal --> mostra o calendário do mês corrente
+    cal (ano) --> mostra o calendário do ano
+    cal (mês) (ano) --> 
+
+  date --> mostra a data e hora de hj
+
+  grep (texto) (arquivo) --> fazer buscas por um texto dentro de um arquivo
+
+  more --> paginação de textos
+    cat (arquivo) | more
+    more (arquivo)
+  less --> paginação de textos
+    cat (arquivo) | less
+    less (arquivo)
+  
+  file (arquivo) --> nos diz qual o tipo do arquivo
+
+  whatis (comando) --> o que faz determinado comando
+
+  find (onde) (meio de busca) (buscar o que?)--> busca por arquivos em um diretório
+    find ~ -name data.txt --> ex
+
+
+# Atalhos nano (editor de texto do linux terminal)
+  AlT + U --> desfazer ultimas ações
+  AlT + E -->  ira refazer ações
+  Alt + 6 --> copiar texto
+  Alt + A --> marca o texto
+  CTRL + U --> colar o texto
+  CRTL + G --> mostra o arquivo de ajuda
+  CRTL + X --> sair
+  CRTL + O --> grava no disco
+  CRTL + R --> insert
+  CRTL + J --> justificar o texto
+  CRTL + T --> verifica a ortografia (only ingles)
+  CRTL + / --> substituir texto
+  CRTL + O --> salvar
+

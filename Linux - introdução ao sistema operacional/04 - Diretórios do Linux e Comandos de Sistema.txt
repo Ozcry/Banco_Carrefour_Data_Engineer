@@ -1,0 +1,46 @@
+Apresentação dos comandos de diretórios do linux
+
+
+# Comandos Linux
+  lspci --> mostra todos os hardware conctados por pci
+
+  lsusb --> mostra todos os hardware conctados por usb
+
+  arch --> mostra a arquitetura do sistema
+
+  uname --> mostra o nome do kernel
+    uname -r --> mostra o nome do kernel e a versão 
+    uname -m --> mostra a arquitetura do kernel
+
+  free --> mostra informações sobre a memória física e Swap
+
+  du -h (diretório) --> mostra a utilização do HD em relação a um diretório
+
+
+# diretório raiz no Linux
+  /
+
+
+# Principais pastas Linux
+  /bin/ --> binários principais dos usuários
+  /boot/ --> arquivos do sistema de boot
+  /dev/ --> arquivos de dispositivos
+  /etc/ --> arquivos de configuração do sistema
+  /home/ --> diretório dos usuários comuns do sistema
+  /lib/ --> bibliotecas essenciais do sistema e os módulos do kernel
+  /media/ --> diretório de montagem e dispositivos
+  /mnt/ --> diretório de montagem de dispositivos — mesmo que "media"
+  /opt/ --> instalação de programas não oficiais da distribuição ou por conta do usuário
+  /sbin/ --> armazena arquivos executáveis que representam comandos administrativos. Exemplo: shutdown
+  /srv/ --> diretório para dados de serviços fornecidos pelo sistema
+  /tmp/ --> diretório para arquivos temporários
+  /usr/ --> segunda hierarquia do sistema, onde ficam os usuários comuns do sistema e programas
+  /var/ --> diretório com arquivos variáveis gerados pelos programas do sistema. Exemplo: log, cache
+  /root/ --> diretório do usuário root — O usuário root tem total poder sobre o sistema. Podendo instalar, desinstalar, configurar
+  /proc/ --> diretório virtual controlado pelo Kernel
+
+
+# Informações no linux
+  cat /proc/meninfo --> mostra informações sobre a memoria
+  cat /proc/cpuinfo --> mostra informações sobre a cpu
+

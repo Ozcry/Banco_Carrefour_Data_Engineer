@@ -1,0 +1,40 @@
+Comandos Basicos Terminal
+
+# Diferença comandos terminal
+Windows   x   Linux
+
+->cd          ->cd
+->dir         ->ls
+->mkdir       ->mkdir
+->del/rmdir   ->rm-rf
+
+# Se situar no sistema operacional
+dir / ls
+
+# Se movendo
+cd --> se mover para um local especifico do sistema
+cd .. --> voltar um diretorio
+
+# Limpar terminal
+cls / clear
+crtl + L --> limpa terminal no linux
+
+# Criar diretorio
+mkdir
+
+# Criar arquivos
+echo --> printa alguma coisa no terminal
+   (echo ola > teste.txt --> pode ser usado para criar arquivos)
+	(> --> usando como um redirecionador de fluxo)
+
+# Apagar arquivos e diretorios windows
+del --> apaga apenas arquivos
+rmdir --> apagar diretorio 
+   (rmdir pasta_teste /S /Q --> para apagar com arquivos usar as flags /S /D)
+
+# Apagar diretorio linux
+rm -rf --> remover diretorios, 'r' e 'f' são flags(r = recursive(apaga pasta dentro de pastas), f = force(não aparecer confirmação))
+
+# Atalhos
+TAB --> auto completar
+Seta pra cima --> mostra o historico de comandos digitados no terminal

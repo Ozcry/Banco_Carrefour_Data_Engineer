@@ -1,0 +1,12 @@
+Git e Github
+
+# Git
+* timeline do seu projeto (versões)
+
+# Beneficios em aprender as duas (tec) juntas
+1 - controle de versão
+2 - armazenamento em nuvem
+3 - trabalho em equipe
+4 - melhorar seu código
+5 - reconhecimento
+

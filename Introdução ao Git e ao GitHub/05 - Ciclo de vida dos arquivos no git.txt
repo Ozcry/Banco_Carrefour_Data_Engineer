@@ -1,0 +1,21 @@
+Passo a passo no ciclo de vida
+
+# Git init
+  quando usado cria um repositório
+
+# Git status
+  nos mostra se tem alguma pendência no git
+
+# Git add
+  git add nomeArquivo
+  git add * ou . --> pega todas as alterações
+
+# Git commit
+  git commit -m "msg.."
+
+-------------------------------------------------------
+Comandos terminal
+
+# Mover aquivos pelo terminal
+  mv --> mover arquivos
+    (mv nome_do_arquivo novo_local)

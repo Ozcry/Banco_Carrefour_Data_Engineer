@@ -1,0 +1,7 @@
+Como os conflitos acontecem no GitHub e como resolvê-los
+
+# Git pull
+  git pull origin master --> puxa os arquivos do servidor remoto
+
+# Git clone
+  git clone https://github.com/Ozcry/Chess.git  --> clona um repositório do github
