@@ -2,8 +2,8 @@ Trabalhando com o GitHub
 
 # Git config
   git config --list --> mostra as configurações do git em formato de lista
-  git config --global --unset user.name --> reseta as config escolhidas
-  git config --global user.name "Ozcry" --> escolhe o nome do usuário
+  git config --global --unset user.name --> reseta o nome na config
+  git config --global user.name "Ozcry" --> escolhe o nome do usuário (mesmo do servidor remoto de preferência)
 
 # Git remote
   git remote -v --> lista os repositórios remotos que tenho cadastrados
