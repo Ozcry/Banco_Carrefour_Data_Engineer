@@ -1,0 +1,60 @@
+O que são Redes, Protocolos e Interfaces de rede
+
+
+# Rede
+  Rede de computadores é um conjunto de equipamentos interligados de maneira a trocarem informações e compartilharem recursos. cada aparelho na rede e chamado de nó
+
+
+# Rede Wan
+  é uma rede geograficamente distribuída
+
+
+# Rede Man
+  é uma rede metropolitana que interligam várias redes locais
+
+
+# Rede Lan
+  é uma rede local de uma forma geral em um único prédio ou campus
+
+
+# Protocolos
+  é a "linguagem" usada pelos dispositivos de uma rede de modo que eles consigam se enteder
+    * IP --> protocolo de internet - endereço IP - números que identificam seu computador em uma rede
+    * ICMP --> (internet control message protocol) tem por objetivo prover mensagens de controle na comunicação entre nós
+    * DNS - domain name server - esse protocolo de aplicação tem por função identificar endereços IP e manter uma tabela com os endereços dos caminhos de alguma rede
+
+
+# Interface de rede
+  é um software e/ou hardware que faz a comunicação em uma rede de computadores
+    - no linux eles ficam na pasta /dev
+  interface loopback é um tipo especial de interface que permite fazer conexões com você mesmo
+    - endereço IP padrão (127.0.0.1)
+
+
+# Comandos
+  ifconfig --> exibe informações sobre interface de rede e IP
+  
+  hostname --> mostra o nome do host
+    hostname -I --> mostra o endereço IP do host
+    hostname -i --> mostra o endereço de loopback
+
+  who --> como estamos logados na rede
+
+  whoami --> nome de usuário logado na rede
+
+  w --> exibe informações detalhadas sobre o usuário do computador na rede
+
+  ping (host) --> manda um ping para verificar se o host esta ativo
+    ping (host) -w (tempo em sec) --> coloca um limite na quantidade de pacotes (nesse caso em sec)
+
+  dig (host) --> informações sobre DNS
+    dig (host) +short --> mostra somente o endereço DNS do host
+
+  traceroute (host) --> traça a rota da nossa rede ate determinado host
+
+  whois (host) --> mostra informações sobre o host
+
+  finger --> mostra toda a informação do usuário que esta logado no nosso host
+
+  sudo --> elevação de privilégios (root)
+
