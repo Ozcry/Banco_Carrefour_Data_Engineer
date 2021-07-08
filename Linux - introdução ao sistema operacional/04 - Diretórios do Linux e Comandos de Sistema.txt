@@ -1,10 +1,18 @@
 Apresentação dos comandos de diretórios do linux
 
 
+  \n --> quebra de linha 
+
+
 # Comandos Linux
   lspci --> mostra todos os hardware conctados por pci
 
   lsusb --> mostra todos os hardware conctados por usb
+
+  lscpu --> mostra todas as informações sobre cpu
+
+  lshw --> gera uma lista de todos os hardware
+    lshw -short
 
   arch --> mostra a arquitetura do sistema
 
@@ -15,6 +23,15 @@ Apresentação dos comandos de diretórios do linux
   free --> mostra informações sobre a memória física e Swap
 
   du -h (diretório) --> mostra a utilização do HD em relação a um diretório
+
+  reboot --> ira reiniciar o sistema
+  
+  shutdown (opção de desligamento) (quando) --> desliga o sistema
+    shutdown -h now
+    shutdown -p now
+
+  echo (sua escolha)--> determina uma saída no terminal
+    echo -e (sua escolha) -->  exibira com caracteres de formatação
 
 
 # diretório raiz no Linux
@@ -43,4 +60,5 @@ Apresentação dos comandos de diretórios do linux
 # Informações no linux
   cat /proc/meninfo --> mostra informações sobre a memoria
   cat /proc/cpuinfo --> mostra informações sobre a cpu
+  cat /etc/passwd --> mostra informações sobre os usuarios do sistema
 
