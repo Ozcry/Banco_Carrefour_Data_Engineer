@@ -1,4 +1,49 @@
 Comandos history, alias e outras interações com arquivos .txt
 
 
-#
+# Comandos
+  alias (apelido)='(comando)' --> vai dar um apelido para um determinado comando
+  
+  nl (arquivo) --> abre um arquivo txt e conta as linhas
+
+  wc -l (arquivo) --> conta o número de linhas em um arquivo txt
+  wc -w (arquivo) --> conta o número de palavras em um arquivo txt
+  wc -c (arquivo) --> conta o número de bytes em um arquivo txt
+  wc -m (arquivo) --> conta o número de caracteres em um arquivo txt
+  
+  cmp (arquivo) (arquivo) --> faz comparação entre dois arquivos byte a byte
+
+  diff (arquivo) (arquivo) --> faz comparação entre dois arquivos de linha a linha
+
+  sort (arquivo) --> ordena um arquivo txt em ordem alfabética
+    sort -n (arquivo) --> ordena um arquivo txt em ordem numérica
+
+  last reboot --> mostra informações de reiniciamento do sistema
+
+  route -n --> mostra todas as tabelas de roteamento IP do nosso kernel
+
+  time (comando) --> mostra o tempo de um processo
+
+  uptime --> mostra a quanto tempo o sistema esta rodando
+
+  cowsay "(fala)" --> desenha uma vaca no terminal que fala o que você quiser
+    cowsay -d "(fala)" --> desenha uma vaca morta no terminal que fala o que você quiser
+    cowsay -g "(fala)" --> desenha uma vaca querendo dinheiro no terminal que fala o que você quiser
+    cowsay -f (bicho) "(fala)" --> desenha um bicho que fala o que você quiser
+
+  xcowsay "(fala)" --> desenha uma vaca mais realista que fala alguma coisa
+
+  cmatrix --> efeito do filme matrix
+
+  init 0 --> desliga o computador
+  telinit 0 --> desliga o computador
+  halt --> desliga o computador
+
+  seq (inicio) (fim) --> imprime uma sequência de número no terminal
+
+  whereis (comando) --> exibe o caminho do programa e seu manual
+
+  which --> exibe o caminho de um programa
+
+  logout --> finaliza sessão
+
