@@ -1,6 +1,11 @@
 Comandos history, alias e outras interações com arquivos .txt
 
 
+# Vi Editor de texto terminal
+    vi (arquivo) --> abre um arquivo no editor de texto
+      :wq! --> no final da linha para fechar
+
+
 # Comandos
   alias (apelido)='(comando)' --> vai dar um apelido para um determinado comando
   
@@ -41,9 +46,9 @@ Comandos history, alias e outras interações com arquivos .txt
 
   seq (inicio) (fim) --> imprime uma sequência de número no terminal
 
-  whereis (comando) --> exibe o caminho do programa e seu manual
+  whereis (comando/programa) --> exibe o caminho do programa e seu manual
 
-  which --> exibe o caminho de um programa
+  which (programa/comando) --> exibe o caminho de um programa
 
   logout --> finaliza sessão
 
