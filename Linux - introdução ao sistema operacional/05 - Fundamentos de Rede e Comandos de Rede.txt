@@ -42,7 +42,7 @@ O que são Redes, Protocolos e Interfaces de rede
 
   whoami --> nome de usuário logado na rede
 
-  w --> exibe informações detalhadas sobre o usuário do computador na rede
+  w --> exibe informações detalhadas sobre o usuário da rede
 
   ping (host) --> manda um ping para verificar se o host esta ativo
     ping (host) -w (tempo em sec) --> coloca um limite na quantidade de pacotes (nesse caso em sec)
