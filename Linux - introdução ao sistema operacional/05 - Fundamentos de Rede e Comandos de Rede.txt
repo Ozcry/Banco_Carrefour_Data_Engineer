@@ -56,5 +56,5 @@ O que são Redes, Protocolos e Interfaces de rede
 
   finger --> mostra toda a informação do usuário que esta logado no nosso host
 
-  sudo --> elevação de privilégios (root)
+  sudo su --> troca para o usuário root
 

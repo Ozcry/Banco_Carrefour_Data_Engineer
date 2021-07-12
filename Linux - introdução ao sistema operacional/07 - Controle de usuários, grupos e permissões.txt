@@ -1,0 +1,66 @@
+Controle de usuários
+
+
+# Grupos
+permitem organizar os usuários e definir as permissões de acesso a arquivos
+e diretórios de forma mais fácil
+
+
+# Permissões
+permissões em arquivos e diretórios servem para restringir acessos como:
+leitura, escrita e execução, onde
+
+ r - read(leitura)
+ w - write(escrita)
+ x - execution(execução)
+
+
+# Modo Octal
+A máscara octal é composta por números sob a base 8, ou seja de 0 a 7 onde:
+ -O primeiro dígito representa o dono do ficheiro/diretório (u)
+ -O segundo dígito representa o grupo (g)
+ -O terceiro dígito representa os outros (o)
+As permissões são especificadas para cada grupo
+
+
+# Exibir todos os usuários do sistema
+  cat /etc/passwd
+
+
+# Exibir todos os grupos do sistema
+  cat /etc/group
+
+
+# Comandos
+  adduser (nome do usuário) --> adiciona um novo usuário
+
+  su (nome do usuário) --> troca de usuário
+  
+  passwd (nome do usuário) --> muda a senha do usuário
+
+  lastlog --> exibi as informações de login de todos os usuários
+
+  last --> exibi uma listagem de entrada e saída do usuário no sistema
+
+  logname --> exibi o nome do usuário atual logado no sistema
+
+  id --> exibi todos os identificadores do usuário
+
+  userdel -r (nome do usuário) --> remove um usuário e a pasta pessoal do mesmo
+    -r --> colocar se quiser remover a pasta do usuário
+
+  groups --> exibi todos os grupos de um usuário
+
+  addgroup (nome) --> adiciona um novo grupo
+
+  adduser (nome do usuário) (grupo) --> adiciona um usuário a um grupo
+
+  gpasswd -a (nome do usuário) (grupo) --> adiciona um usuário a um grupo
+  gpasswd -d (nome do usuário) (grupo) --> remove um usuário de um grupo
+
+  groupdel (grupo) --> remove um grupo
+
+  ls -lh --> verifica permissões em um diretório
+
+  chmod (octal) (arquivo ou diretório) --> muda a permissão de um arquivo ou diretório
+
