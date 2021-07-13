@@ -37,6 +37,7 @@ Conhecendo o terminal e primeiros comandos
 
   rm -r (nome) --> remove diretórios cheio (-r é uma flag)
     rm (nome) --> remove arquivos
+    rm -r *(nome) --> remove varios arquivos com o mesmo nome
 
   exit --> fecha o terminal
 
