@@ -1,0 +1,50 @@
+# Pacotes
+são programas colocados dentro de um arquivo identificados 
+por sua extensão, e incluem arquivos necessários para a 
+instalação do programa
+ .deb
+ .rpm (fedora)
+
+
+# Gerenciadores
+são sistemas que possuem resolução automática de dependências 
+entre pacotes, método fácil de instalação de pacotes
+ -dpgk
+ -apt
+ -yum (fedora)
+ -rpm (fedora)
+
+
+# apt
+  sudo apt install (pacote) --> instalação de programas
+  
+  sudo apt upgrade (pacote) --> atualização de programas
+  
+  sudo apt remove (pacote) --> remover um programa
+  
+  apt update && apt upgrade --> atualização de sistema
+
+
+# dpkg
+  dpkg -i (.deb) --> instalação de programas
+  
+  dpkg -I (.deb) --> informações sobre um determinado pacote
+  
+  dpkg -r (nome do pacote) --> remover um programa
+
+
+# rpm (FEDORA)
+  rpm -ivh (.rpm) --> instalação de programas
+    rpm -ivh --nodeps (.rpm) --> instalação sem dependências
+   
+  rpm -U (.rpm) --> atualização de programas
+
+  rpm -e (.rpm) --> remover um programa
+
+# yum (FEDORA)
+  yum install (pacote) --> instalação de programas
+
+  yum update (pacote) --> atualização de programas
+
+  yum remove (pacote) --> remover um programa
+
