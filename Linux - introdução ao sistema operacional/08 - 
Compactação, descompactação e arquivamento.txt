@@ -1,0 +1,19 @@
+# Compactadores
+  gzip --> muito usado, possui uma taxa excelente de compactação
+    gzip (arquivo) --> compactação normal
+    gzip -9 (arquivo) --> compactação máxima
+    gunzip (arquivo) --> descompacta
+
+  zip (nome do arquivo compactado) (arquivo) --> faz compactação
+    unzip (nome do arquivo compactado) --> descompacta
+
+  bzip2 (arquivo) --> faz compactação
+    bzip2 -d (arquivo) --> descompacta
+    
+  rar a (nome do arquivo compactado) (arquivo) --> faz compactação
+    rar x (arquivo) --> descompacta
+
+  tar -cf (nome do arquivo compactado) (arquivo) --> faz compactação
+    tar -xvf (arquivo) --> descompacta
+    tar -xvf (arquivo) -C (diretório) --> descompacta para uma pasta especifica
+
