@@ -1,0 +1,25 @@
+# Comandos
+  cd (diretório)--> change directory
+  cd / --> abre o diretório raiz
+  cd ~ --> abre o diretório do usuário
+  cd .. --> voltar diretório
+
+  ls --> lista os arquivos de um diretório
+  ls -l --> lista o conteúdo em coluna detalhada
+  ls -a --> lista o conteúdo até os arquivos ocultos
+  ls -s --> lista o conteúdo com tamanho alocado de cada arquivo, em bloco
+
+  touch (arquivo) --> cria arquivos vazios
+  touch (arquivo) (arquivo) (arquivo) --> criar varios arquivos
+  touch -a (arquivo) --> alterar hora de acesso
+  touch -c (arquivo) --> alterar hora de acesso sem criar um novo arquivo
+  touch -m (arquivo) --> alterar hora da modificação
+  touch -t (ano/mês/dia/hora/min.sec) (arquivo) --> definir hora específica de acesso e modificação
+  
+  cat (arquivo) --> concatenar
+  cat (arquivo) > (arquivo) --> colocar o resultado em outro arquivo
+  cat (arquivo) | more --> para a rolagem da tela e permiti a navegação
+  cat (arquivo) | less --> para a rolagem da tela e permiti a navegação
+  
+  > --> redirecionador de saída
+

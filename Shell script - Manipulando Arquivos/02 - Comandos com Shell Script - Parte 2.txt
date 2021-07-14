@@ -1,0 +1,41 @@
+# Comandos
+  mv -i (arquivo) (diretório) --> move e renomeia arquivos e diretórios
+    (flag -i --> confirme antes de substituir)
+    (flag -n --> sem substituir)
+    (flag -b --> substituir pelo backup)
+    (flag -u --> substituir se o arquivo de destino for antigo ou não existir)
+
+  clear --> limpa a tela
+
+  . --> representa o diretório atual
+
+  man (comando) --> exibi uma ajuda do comando
+
+  cp (arquivo) (diretório) --> copiar arquivos para outro local
+  cp -r (arquivo) (diretório) --> copiar diretórios para outro local
+  cp -r (.) (diretório) --> copia todo o diretório atual para outro local
+  cp (arquivo) (arquivo) (diretório) --> copiar vários arquivos
+    (flag -r --> obrigatório para mover diretórios)
+    (flag -i --> sem confirmação de existência ou não, exceto se usar a flag -i "interativa")
+    (flag -v --> nenhuma saída será exibida, exceto se usar o flag opção -v "verbose"))
+    (flag -l --> criar hard links em vez de copiar os arquivos
+    (flag -s --> criar links simbólicos em vez de copiar arquivos
+    (flag -u --> copiar apenas quando o arquivo de origem for mais novo do que o arquivo de destino ou quando o arquivo
+                 de destino não existir
+
+  mkdir (nome) --> criar diretório
+
+  rmdir (nome) --> remove um diretório vazio
+
+  rm -rf (nome) --> remove um diretório não vazio
+  rm (arquivo) --> remove arquivo
+    (flag -f --> remove os arquivos sem perguntar)
+
+  find . --> mostra todos os arquivos da pasta atual e arquivos de pastas dentro dela
+  find (diretório) -type (tipo do arquivo) -name "(nome)" --> faz uma busca especifica
+    (-type = f 'file', d 'diretório')
+
+  diff (arquivo) (arquivo) --> faz comparação entre arquivos
+
+  env --> exibi todas as variáveis de ambiente
+
