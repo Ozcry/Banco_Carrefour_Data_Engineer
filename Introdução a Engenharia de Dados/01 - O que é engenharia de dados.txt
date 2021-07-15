@@ -1,0 +1,65 @@
+O que são os dados?
+textos, fatos, gráficos, medidas, observações, áudios, vídeos
+números
+
+Tipos de dados
+-estruturados
+  estrutura rígida e previamente planejada
+  cada campo tem um formato único
+  relação entre os campos
+
+-não estruturados
+  sem estrutura previamente planejada
+  dados flexíveis e dinâmicos
+  complexidade em consultas
+
+# Dados vs Informação
+dados = brutos, não organizados, sem contexto
+dados + processamento = informação
+informação = com contexto, baseados em negócio
+
+Transformando dados em informação
+1 - Coletar
+2 - Armazenar
+3 - Processar
+4 - Consumir
+
+O que são pipelines de dados?
+- Coleta
+- Ingestão
+- Preparação
+- Computação
+- Apresentação
+
+# Jornada do Engenheiro de Dados
+programação = Python, Scala, R
+
+automação scripting = Shell(cli), Crontab(sheduling)
+
+bancos de dados = Relacional(MySQL, PostgreSQL, Oracle...), Não Relacional(NoSQL, MongoDB)
+
+pipelines / ETL = Apache Spark, Apache Spark Streaming, Apache Kafka, Apache Airflow
+
+big data = Data Lake, Data Lakehouse, Apache Hadoop, MLOps
+
+Cloud Computing = Google Cloud Platform, AWS, Azure
+
+Responsabilidades
+Garantir que os dados estejam disponíveis para a análise de forma segura
+1 - Coleta 
+     .Jobs(batch) 
+     .Realtime(Streaming)
+
+2 - Transformação
+     .ETL
+     .Pipelines
+
+3 - Armazenamento
+     .Bancos de dados
+     .Repositórios de arquivos
+
+4 - Disponibilidade
+     .APIs
+     .Arquivos
+     .Bancos de dados
+
