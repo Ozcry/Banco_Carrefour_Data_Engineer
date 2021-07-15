@@ -25,6 +25,10 @@ Linguagem Markdown
 
 # Tags
   # até ###### --> títulos
+
   **teste** --> negrito
+
   _teste_ --> itálico
+
   :nome_do_emoji --> adicionar emoji
+
