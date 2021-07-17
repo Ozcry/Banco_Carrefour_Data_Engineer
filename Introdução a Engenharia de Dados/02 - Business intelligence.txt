@@ -1,0 +1,67 @@
+# Business Intelligence
+Converter o volume de dados em informações relevantes para o negócio, através de 
+relatórios analíticos
+
+Aplicações
+
+ - Query Report
+ - Mineração de dados
+ - Budget & Forecast
+ - KPI's
+ - Dashboards de gestão
+
+# Data warehouse (DW)
+É uma arquitetura de armazenamento projetada para conter dados extraídos de sistemas de transações, 
+armazenamentos de dados operacionais e fontes externas
+Combina esses dados em um formulário de resumo agregado adequado para análise de dados em toda a empresa e relatórios
+para necessidades de negócios predefinidas
+
+OLTP - Online transactional Processing
+ foco - operações do dia a dia
+ origem - transações em tempo real da organização
+ performance - milissegundos
+ volatilidade - atualizações curtas e rápidas iniciadas pelo usuário
+ design - normalizando
+
+OLAP - Online Analytical Processing
+ foco - suporte a decisão
+ origem - bases de dados de sistemas transacionais - OLTP
+ performance - minutos / horas
+ volatilidade - geralmente grande devido á agregação de grandes conjuntos de dados
+ design - desnormalizado
+
+Arquitetura
+ - Básica
+    Data Sources --> Warehouse --> Users
+
+ - Staging Area
+    Data Sources --> Staging Area --> Warehouse --> Users
+
+ - Data Marts
+    Data Sources --> Staging Area --> Warehouse --> Data Marts --> Users
+
+# ETL
+(extract, transform, load) é um processo automatizado que coleta dados brutos, extrai as 
+informações necessárias para análise, transforma em um formato que atende às necessidades de negócios 
+e carrega em um data warehouse
+
+Tipos de movimentação
+* movimentação de volumes de dados
+  - cargas completas - truncate & load
+  - cargas incrementais - data / ID
+  - frequência(diária, semanal, mensal)
+
+* pode melhorar significa mente a qualidade dos dados
+  - qualidade e padronização / validação dos dados
+  - metadados (descrevem os atributos dos dados - significado)
+
+# Data marts
+É um subconjunto de um data warehouse, orientado para uma linha de negócios específica
+
+# Inmon vs Kimball
+ - Inmol model
+    Data Sources --> Warehouse --> Data Marts --> Users
+
+ - Kimball model
+   Data Sources --> Data Marts --> Warehouse --> Users
+
