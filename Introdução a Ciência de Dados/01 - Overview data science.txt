@@ -1,0 +1,35 @@
+Especialização em Data Science & Big Data
+
+  Mineração de dados
+    - Análise de redes
+    - Mineração de textos
+    - Engenharia de características
+    - Machine learning
+
+  Plataformas de big data
+    - MapReduce com Hadoop e Spark
+    - Data Warehouse e integração
+    - SQL, NoSQL e NewSQL
+
+  Exploração e comunicação de dados
+    - ETL com Python e R
+    - Visualização de dados
+    - Relatórios dinâmicos
+    - Web scraping
+
+  Infraestrutura computacional
+    - Infraestrutura de software
+    - Computação em nuvem
+    - Processamento de alta performance
+
+  Fundamentos para data science
+    - Otimização
+    - Probabilidades e simulação
+    - Amostragem e planejamento
+    - Métodos de inferência
+
+  Modelos estatísticos
+    - Regressão e extensões
+    - Forecasting e sobrevivência
+    - Métodos multivariados
+

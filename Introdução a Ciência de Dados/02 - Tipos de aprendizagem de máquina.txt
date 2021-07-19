@@ -1,0 +1,42 @@
+Classic Machine Learning
+
+Supervised --> programa de modelagem em que queremos predizer um certo evento de interesses de forma massificada, dado as características dos indivíduos no modelo
+  - Classification
+  - Regression
+
+Variável Resposta:
+  - Continua
+  - Categórica
+
+Algoritmos mais utilizados
+  - Regressão Linear Simples/Múltipla
+  - Regressão Logística Lasso/Ridge
+  - Floresta Aleatória
+  - ExtraTree
+  - Árvore
+  - Etc...
+
+Pacotes
+  - Scikit learn
+  - CatBoost
+  - LightGBM
+  - dmlc XGBoost
+
+
+Unsupervised --> e composto somente pelas características presentes nos conjuntos de dados analisados
+  - Clustering
+  - Association
+  - Dimension Reduction (generalization)
+
+Variável Resposta:
+  - Não existe
+
+Algoritmos mais utilizados
+  - Análise de Agrupamento (K-means, Espectral, Hierárquico)
+  - Redução de Dimensionalidade (Componentes principais, Decomposição de valor singular)
+  - Sistema de recomendações
+
+Pacotes
+  - Scikit learn
+  - Keras
+
